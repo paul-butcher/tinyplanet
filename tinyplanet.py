@@ -1,6 +1,7 @@
 from __future__ import division
 
 import math
+import sys
 from PIL import Image, ImageDraw, ImageFilter
 #
 # def find_horizon_ends(im):
@@ -24,7 +25,7 @@ from PIL import Image, ImageDraw, ImageFilter
 
 
 # image size
-linear_image = Image.open("/Users/butchp01/Downloads/IMG_20180620_130630.jpg")
+linear_image = Image.open(sys.argv[1])
 
 # lhs = 200
 # rhs = 140
