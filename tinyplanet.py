@@ -90,7 +90,7 @@ linear_image = straighten_horizon(linear_image, lhs, rhs)
 linear_image = linear_image.transpose(Image.FLIP_TOP_BOTTOM)
 
 
-circle_image = Image.new("RGB", (imgX, imgY))
+circle_image = Image.new("RGBA", (imgX, imgY), (255,255,255,0))
 
 # rectangle to polar coordinates
 maxradius = imgX / 2 #math.sqrt(imgX**2 + imgY**2)/2
