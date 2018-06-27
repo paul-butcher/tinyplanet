@@ -16,7 +16,7 @@ An uneven horizon may be due to the camera not being entirely level throughout t
 If the height difference between the ends of the horizon is great enough, simply rotating the whole image
 to fit causes extreme wonkiness in the output.
 
-![tinyplanet with source image rotated to align the horizon, eliminating the sudden jump, but everything now bends clockwise](examples/planets/with-horizon-correction.png)
+![tinyplanet with source image rotated to align the horizon, eliminating the sudden jump, but everything now bends clockwise](examples/planets/rotated.png)
 
 The technique used here gradually corrects the horizon alignment from the centre of the image to a mid-point between the two horizons.  This produces a better result.
 
