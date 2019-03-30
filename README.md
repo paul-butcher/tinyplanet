@@ -18,7 +18,7 @@ to fit causes extreme wonkiness in the output.
 
 ![tinyplanet with source image rotated to align the horizon, eliminating the sudden jump, but everything now bends clockwise](examples/planets/rotated.png)
 
-The technique used here gradually corrects the horizon alignment from the centre of the image to a mid-point between the twoends of the horizon.  This produces a better result.
+The technique used here gradually corrects the horizon alignment from the centre of the image to a mid-point between the two ends of the horizon.  This produces a better result.
 
 ![tinyplanet with corrected horizon, eliminating the sudden jump](examples/planets/with-horizon-correction.png)
 
