@@ -32,3 +32,5 @@ Uses the technique described here:
 Code for the polar distort originally from a Stack Overflow answer: [Image to polar co-ordinates](https://stackoverflow.com/a/48053026/150882)
 
 Another command-line tinyplanet generator from [Fred's ImageMagick Scripts](http://www.fmwconcepts.com/imagemagick/tinyplanet/index.php)
+
+Consider using a seam carving technique to detect the horizon https://avikdas.com/2019/05/14/real-world-dynamic-programming-seam-carving.html
